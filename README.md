@@ -2,23 +2,25 @@
 
 lui ka wai
 student number : 041163917
-Pokedex HI-Fidelity Wireframe
+Pokedex
 
-Design Decision - Pokédex Capstone Project
+# Capstone Project - Part 3
 
-For this model, I wanted to design something simple, clean and easy to use for anyone who likes Pokémon.
+## Steps Taken
 
-Layout
+- Created HTML structure based on mockup
+- Designed with CSS Flexbox/Grid
+- Used media queries for responsiveness
+- Added search filter in JavaScript
 
-The home page displays Pokémon and their names and images. I used cards to emphasize interest and make them easy to tap or click. When the user clicks on a card, a detail panel appears showing more information about the Pokémon, such as type and abilities.
+## Resources Used
 
-Adaptive Design
+- https://pokeapi.co/
+- W3Schools, MDN Web Docs
+- Google Fonts
 
-I designed two versions: - one for desktop computers (larger screen) - One for mobile devices (small screen)
-This ensures that it works well on both phones and computers.
+## Challenges
 
-Colors and Fonts
-
-I chose yellow and white for the theme to make it appealing. For the fonts, I used simple, modern and easy to read fonts.
-
-Included Features - Load more Pokémon - Display detailed information - Capture" button to save to local storage - The “Release” button can be removed from the catch list
+- Ensuring mobile-first responsiveness
+- Styling type badges correctly
+- Managing grid layout on different screens
