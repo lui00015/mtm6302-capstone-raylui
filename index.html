@@ -1,11 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon App</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="images/logo.png" alt="Pokémon Logo" class="logo" />
+        <input type="text" placeholder="Search" class="search-bar" />
+      </header>
+
+      <main class="pokemon-grid">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/pikachu.png" alt="Pikachu" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#001</span>
+            <h3 class="pokemon-name">Pikachu</h3>
+            <div class="types">
+              <span class="type electric">Electric</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/aron.png" alt="Aron" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#002</span>
+            <h3 class="pokemon-name">Aron</h3>
+            <div class="types">
+              <span class="type steel">Steel</span>
+              <span class="type rock">Rock</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/mew.png" alt="Mew" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#003</span>
+            <h3 class="pokemon-name">Mew</h3>
+            <div class="types">
+              <span class="type psychic">Psychic</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/butterfly.png" alt="Butterfly" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#004</span>
+            <h3 class="pokemon-name">Butterfly</h3>
+            <div class="types">
+              <span class="type bug">Bug</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/gastly.png" alt="Gastly" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#005</span>
+            <h3 class="pokemon-name">Gastly</h3>
+            <div class="types">
+              <span class="type ghost">Ghost</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/squirtle.png" alt="Squirtle" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#006</span>
+            <h3 class="pokemon-name">Squirtle</h3>
+            <div class="types">
+              <span class="type water">Water</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/Wartortle.png" alt="Wartortle" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#007</span>
+            <h3 class="pokemon-name">Wartortle</h3>
+            <div class="types">
+              <span class="type water">Water</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/blastoise.png" alt="Blastoise" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#008</span>
+            <h3 class="pokemon-name">Blastoise</h3>
+            <div class="types">
+              <span class="type water">Water</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/pachirisu.png" alt="Pachirisu" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#009</span>
+            <h3 class="pokemon-name">Pachirisu</h3>
+            <div class="types">
+              <span class="type grass">Grass</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/jigglypuff.png" alt="Jigglypuff" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#010</span>
+            <h3 class="pokemon-name">Jigglypuff</h3>
+            <div class="types">
+              <span class="type normal">Normal</span>
+              <span class="type fairy">Fairy</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/articuno.png" alt="Articuno" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#011</span>
+            <h3 class="pokemon-name">Articuno</h3>
+            <div class="types">
+              <span class="type bug">Bug</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/quilava.png" alt="Quilava" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#012</span>
+            <h3 class="pokemon-name">Quilava</h3>
+            <div class="types">
+              <span class="type grass">Grass</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/charmander.png" alt="Charmander" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#013</span>
+            <h3 class="pokemon-name">Charmander</h3>
+            <div class="types">
+              <span class="type fire">Fire</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/charmeleon.png" alt="Charmeleon" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#014</span>
+            <h3 class="pokemon-name">Charmeleon</h3>
+            <div class="types">
+              <span class="type fire">Fire</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        
+<div class="card">
+  <div class="card-image">
+    <img src="images/Charizard.png" alt="Charizard" />
+  </div>
+  <div class="card-info">
+    <span class="pokemon-id">#015</span>
+    <h3 class="pokemon-name">Charizard</h3>
+    <div class="types">
+      <span class="type fire">Fire</span>
+    </div>
+  </div>
+  <div class="catched-toggle">
+    <span>catched</span>
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider"></span>
+    </label>
+  </div>
+</div> 
+
+
+<div class="card">
+  <div class="card-image">
+    <img src="images/Charizard.png" alt="Charizard" />
+  </div>
+  <div class="card-info">
+    <span class="pokemon-id">#016</span>
+    <h3 class="pokemon-name">Charizard</h3>
+    <div class="types">
+      <span class="type fire">Fire</span>
+    </div>
+  </div>
+  <div class="catched-toggle">
+    <span>catched</span>
+    <label class="switch">
+      <input type="checkbox" />
+      <span class="slider"></span>
+    </label>
+  </div>
+</div>
+
+
+<div class="card">
+          <div class="card-image">
+            <img src="images/pikachu.png" alt="Pikachu" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#017</span>
+            <h3 class="pokemon-name">Pikachu</h3>
+            <div class="types">
+              <span class="type electric">Electric</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/aron.png" alt="Aron" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#018</span>
+            <h3 class="pokemon-name">Aron</h3>
+            <div class="types">
+              <span class="type steel">Steel</span>
+              <span class="type rock">Rock</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/mew.png" alt="Mew" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#019</span>
+            <h3 class="pokemon-name">Mew</h3>
+            <div class="types">
+              <span class="type psychic">Psychic</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/butterfly.png" alt="Butterfly" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#020</span>
+            <h3 class="pokemon-name">Butterfly</h3>
+            <div class="types">
+              <span class="type bug">Bug</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/gastly.png" alt="Gastly" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#021</span>
+            <h3 class="pokemon-name">Gastly</h3>
+            <div class="types">
+              <span class="type ghost">Ghost</span>
+              <span class="type poison">Poison</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="images/squirtle.png" alt="Squirtle" />
+          </div>
+          <div class="card-info">
+            <span class="pokemon-id">#022</span>
+            <h3 class="pokemon-name">Squirtle</h3>
+            <div class="types">
+              <span class="type water">Water</span>
+            </div>
+          </div>
+          <div class="catched-toggle">
+            <span>catched</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        </div>
+      </main>
+      
+    </div>
+    <script>
+  
+</script>
+  </body>
 </html>
